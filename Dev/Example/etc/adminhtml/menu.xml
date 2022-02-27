@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dev_Example::first_level" title="Example Main Menu" module="Dev_Example" sortOrder="20" resource="Dev_Example::first_level" />
+        <add id="Dev_Example::second_level" title="Example Sub Menu" module="Dev_Example" sortOrder="1" action="example/index/index" parent="Dev_Example::first_level" resource="Dev_Example::second_level" />
+    </menu>
+</config>

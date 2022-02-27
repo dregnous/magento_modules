@@ -1,0 +1,14 @@
+{
+    "example_table": {
+        "column": {
+            "id": true,
+            "name": true,
+            "image_path": true,
+            "description": true,
+            "created_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
